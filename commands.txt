@@ -1,0 +1,12 @@
+
+npm init
+
+npm install mongodb@3.0.10 --save
+
+npm install assert@1.4.1 --save
+
+In system start mongodb server
+    In Terminal 1
+    mongod -dbstart=dbpath=/Users/harshavardhan/Documents/Projects/mongodb/data/db --bind_ip 127.0.0.1
+    In Terminal 2
+    mongo 
